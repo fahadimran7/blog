@@ -13,7 +13,7 @@ We've gotten to a point where the benchmark is always "make it human, it shouldn
 
 In the early days of these models, AI slop looked like purple gradients, shadows and glowing buttons, outlines everywhere, em dashes. Then came the [frontend design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) from Claude, and other skills people wrote, and we slowly started to identify those things and cut them out to make the output more human.
 
-The days of purple gradients are over. But the AI tells keep changing. Six months ago it was purple gradients. Now it's maybe those eyebrows Claude likes to add in all caps above every heading, that grotesque font it loves, and the warm editorial palette. We trained the models to stop doing the obvious sloppy stuff, and they just converged on a new common output.
+The days of purple gradients are over. But the AI tells keep changing. Six months ago it was purple gradients. Now it's maybe those eyebrows Claude likes to add in all caps above every heading, that grotesque font, and the warm editorial palette. We trained the models to stop doing the obvious sloppy stuff, and they just converged on a new common output.
 
 Our goal is to make AI produce output like a human. But once it starts doing that, it becomes the new slop. A design that was fine six months ago is slop now because every agent is producing it. And this cycle keeps on repeating.
 
