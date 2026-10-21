@@ -8,9 +8,9 @@ tags: ["system-design"]
 ![Tweet by @system_monarch: "Netflix staff system design round. Interviewer: One of your 200 instances has a bad config. It returns a 500 error in 2ms for every request. Your load balancer uses least-connections. Within a minute, 40% of all traffic is going to the broken instance. Why?"](./images/netflix-least-connections.jpg)
 *Screenshot: [@system_monarch](https://x.com/system_monarch) on X.*
 
-This got posted in the system design masterclass I'm taking. There was a lot of back and forth on it, which helped me a lot, so here's my two cents. I'm still a student here and most of this stuff is new to me, so I might be wrong about some of it.
+This got posted in the [system design masterclass](https://www.umer-farooq.com/system-design-masterclass) I'm taking. There was a lot of back and forth on it, which helped me a lot, so here's my two cents. I'm still a student here and most of this stuff is new to me, so I might be wrong about some of it.
 
-The health check is probably only checking that the server is up and that the basic services are running. That part is fine on the broken instance, so the check returns a 200 and it stays in rotation. That makes sense to me.
+The health check is probably only checking that the server is up and that the basic services are running. That part is fine on the broken instance, so the check returns a 200 and it stays in rotation.
 
 The 40% comes from least-connections. The broken instance fails every request in 2ms, so it always has the fewest open connections, and the load balancer keeps sending it more traffic.
 
