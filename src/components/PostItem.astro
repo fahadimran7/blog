@@ -1,0 +1,11 @@
+---
+import { fmt, iso, minutes, type Post } from "../lib/posts";
+
+const { post } = Astro.props as { post: Post };
+---
+
+<article class="post">
+  <a class="pt" href={`/posts/${post.id}`}>{post.data.title}</a>
+  <div class="meta"><time datetime={iso(post.data.date)}>{fmt(post.data.date)}</time> · {minutes(post)}</div>
+  <p class="excerpt">{post.data.description}</p>
+</article>

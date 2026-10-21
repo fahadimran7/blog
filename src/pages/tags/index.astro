@@ -1,0 +1,15 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getTags } from "../../lib/posts";
+
+const tags = await getTags();
+---
+
+<Base title="Tags" description="Posts by topic.">
+  <h1 class="page-title">Tags</h1>
+  <ul class="tag-cloud">
+    {[...tags.keys()].map((tag) => (
+      <li><a class="tag" href={`/tags/${tag}`}>#{tag}</a></li>
+    ))}
+  </ul>
+</Base>

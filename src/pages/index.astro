@@ -1,0 +1,27 @@
+---
+import Base from "../layouts/Base.astro";
+import PostItem from "../components/PostItem.astro";
+import { SITE } from "../site.config";
+import { getPosts } from "../lib/posts";
+
+const posts = (await getPosts()).slice(0, SITE.recentCount);
+---
+
+<Base>
+  <section class="intro">
+    <h1>{SITE.greeting}</h1>
+    <p class="bio">{SITE.description}</p>
+    <p class="social">
+      <a href="/rss.xml" class="rss">
+        <svg viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>RSS
+      </a>
+      {SITE.social.map((s) => <a href={s.href} rel="me noopener">{s.label}</a>)}
+    </p>
+  </section>
+
+  <div class="section-head">
+    <h2>Recent</h2>
+    <a href="/posts">All posts →</a>
+  </div>
+  {posts.length ? posts.map((post) => <PostItem post={post} />) : <p class="muted">Nothing here yet.</p>}
+</Base>
