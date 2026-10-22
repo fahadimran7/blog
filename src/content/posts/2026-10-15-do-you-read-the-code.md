@@ -27,6 +27,6 @@ And I'm not alone in that. I've talked to colleagues working at other companies,
 
 On my side projects, I'm less worried about code quality in general than I would be with a really critical piece of software, since I have one user anyway (yes, me, ofc). But even for work, I've shipped entire features and bug fixes without reading much of the code. It mostly went fine, which is genuinely a shock given where we were just a year ago.
 
-Don't get me wrong, I DO believe there should be guardrails. You shouldn't "vibe" your way into production. Good test coverage, a CI pipeline that runs those tests on every PR and blocks the merge when something breaks, and a review agent going over the changes. Heck, it is now possible to generate a shit ton of slop just to verify the actual critical pieces in your app since code is so cheap now. And I agree we should be doing more of that.
+Don't get me wrong, I DO believe there should be guardrails. You shouldn't "vibe" your way into production. Good test coverage, a CI pipeline that runs those tests on every PR and blocks the merge when something breaks, and a review agent going over the changes. Heck, it is possible to generate a shit ton of slop just to verify the actual critical pieces in your app since code is so cheap now. And I agree we should be doing more of that.
 
 But the fact remains that "humans" aren't really reading the code anymore. At least most of us aren't.
