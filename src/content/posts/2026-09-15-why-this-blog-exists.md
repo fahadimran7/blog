@@ -26,6 +26,6 @@ I could technically do this on Twitter, but I can't bear Twitter. I've tried mul
 
 I've made it really easy for myself to just ramble and publish. Most of these posts start with me talking into a microphone, then getting it structured into something readable, then publishing it.
 
-What I'm hoping is that this turns into a habit, and that I can look back at what I've learned and what I thought at the time. Probably laugh at how stupid or crazy I was. Maybe it'll also help me get over my perfectionism, and I'll start posting on LinkedIn too. But for now I just want to get stuff out of my head. I do have thoughts on things, and I have these discussions with people that I want to keep somewhere.
+What I'm hoping is that this turns into a habit, and that I can look back at what I've learned and what I thought at the time. Probably cringe at how stupid I was. Maybe it'll also help me get over my perfectionism, and I'll start posting on LinkedIn too. But for now I just want to get stuff out of my head. I do have thoughts on things, and I have these discussions with people that I want to keep somewhere.
 
 So this is my blog. It's my timeline, my history. There's no pressure because no one is going to read it. But if you somehow are reading this, welcome. I hope you like it. If you don't, that's okay too. I'm not writing it for you anyway.
