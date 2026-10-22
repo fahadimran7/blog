@@ -12,7 +12,7 @@ const { posts } = Astro.props as { posts: Post[] };
 ---
 
 <Base title={`#${tag}`} description={`Posts tagged #${tag}.`}>
-  <a class="crumb" href="/tags">← Tags</a>
+  <a class="crumb" href="/tags"><span aria-hidden="true">‹</span> Tags</a>
   <h1 class="page-title">#{tag}</h1>
   {posts.map((post) => <PostItem post={post} />)}
 </Base>

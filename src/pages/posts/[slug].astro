@@ -20,7 +20,7 @@ const { title, description, date, updated, tags } = post.data;
 ---
 
 <Base title={title} description={description} image={`/og/${post.id}.png`} article={{ published: date, updated, tags }}>
-  <a class="crumb" href="/posts">← Posts</a>
+  <a class="crumb" href="/posts"><span aria-hidden="true">‹</span> Posts</a>
   <article data-pagefind-body>
     <h1 class="article-title">{title}</h1>
     <div class="meta post-meta">
