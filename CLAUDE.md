@@ -16,7 +16,7 @@ When the user says "add blog post" (with notes, a topic, or a draft):
    draft: false          # true = visible in `npm run dev` only
    # updated: YYYY-MM-DD # add when meaningfully editing an old post
    ```
-3. Write in the user's voice: short, plain, first person. Use `##` for sections (they become the "On this page" list once there are 2+). Fenced code blocks with a language.
+3. Write in the user's voice. **Read `WRITING.md` first**: it covers turning a voice-dictated ramble into a post, the tone, banned AI/LinkedIn patterns, and what to flag back. `##` sections become the "On this page" list once there are 2+. Fenced code blocks with a language.
 4. Reuse existing tags where possible: `ls` the posts and grep `tags:` first.
 5. Run `npm run build` to verify. Don't commit or push unless asked.
 

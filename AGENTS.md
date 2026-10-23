@@ -1,3 +1,7 @@
+## Writing posts
+
+Before writing or editing a blog post, read `WRITING.md` (voice and style guide) and the "add blog post" steps in `CLAUDE.md`.
+
 ## Development
 
 When starting the dev server, use background mode:
